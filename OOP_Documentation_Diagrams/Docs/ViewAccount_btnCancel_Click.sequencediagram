@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="b49b09b1-4b69-466a-ae9b-f9a489193a70" name="ViewAccount_btnCancel_Click" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="c3909164-e1e6-42b0-a58b-6d5d02c02a8b" name="ViewAccount_btnCancel_Click" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="43da4ac2-8159-40ad-8a70-41a5a5fa9349" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="2e7879ab-b316-4f87-99b3-fc84e47bf2aa" LastKnownName="this : ViewAccount" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="d3b7fcef-2929-4835-a02e-57254de24948" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="6dc7d78b-2cff-4fcc-a1b2-00110e5e7575" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="5fee44f7-07d7-44b9-bd7d-fe0252dec387" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="6dc7d78b-2cff-4fcc-a1b2-00110e5e7575" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="01c3b1c8-fd17-43a5-bb02-1073414c590e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="2e7879ab-b316-4f87-99b3-fc84e47bf2aa" LastKnownName="this : ViewAccount" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="6be57c17-c2e6-4882-b804-9114e7f3d940" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="5fee44f7-07d7-44b9-bd7d-fe0252dec387" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="2e7879ab-b316-4f87-99b3-fc84e47bf2aa" LastKnownName="this : ViewAccount" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="d3b7fcef-2929-4835-a02e-57254de24948" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="63a726b8-9351-4e07-a10f-ee2afd2260a6" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="2e7879ab-b316-4f87-99b3-fc84e47bf2aa" LastKnownName="this : ViewAccount" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="2e7879ab-b316-4f87-99b3-fc84e47bf2aa" name="this : ViewAccount" isActor="false" lifelineDisplayName="this : ViewAccount" referencedInstance="(Assembly=$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri) Namespace=OOP2CreditUnion Type=ViewAccount ObjectInstance=&quot;Object instance 3&quot;)" referencedType="OOP2CreditUnion‎.ViewAccount">
+            <referencesInternal>
+              <reference Id="09d6d359-9bfe-4c7a-886e-5b832c51bec5" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=OOP2CreditUnion)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&amp;quot; Namespace=OOP2CreditUnion Type=ViewAccount)&quot;)" tag="DGQL" />
+              <reference Id="50381937-8359-48f5-b624-81ee84c42d2d" handle="(Assembly=&quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&quot; Namespace=OOP2CreditUnion Type=ViewAccount)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="6dc7d78b-2cff-4fcc-a1b2-00110e5e7575" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="d3b7fcef-2929-4835-a02e-57254de24948" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="c6b3adeb-7c0a-48e2-af24-95f4b0c29668" name="btnCancel_Click" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="76592e6c-cb4e-4175-b55c-16ec1f170348" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=OOP2CreditUnion)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&amp;quot; Namespace=OOP2CreditUnion Type=ViewAccount)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&amp;quot; Namespace=OOP2CreditUnion Type=ViewAccount Member=(Name=btnCancel_Click OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=Object),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=EventArgs)]))&quot;)" tag="DGQL" />
+              <reference Id="29b9f32a-2fb9-4de9-ad2b-881481d69a9d" handle="(Assembly=&quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&quot; Namespace=OOP2CreditUnion Type=ViewAccount Member=(Name=btnCancel_Click OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=EventArgs)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="6be57c17-c2e6-4882-b804-9114e7f3d940" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="5fee44f7-07d7-44b9-bd7d-fe0252dec387" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="01c3b1c8-fd17-43a5-bb02-1073414c590e" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="63a726b8-9351-4e07-a10f-ee2afd2260a6" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

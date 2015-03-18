@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="51af4a09-c24c-459c-ac83-2db0f77be7ec" name="ViewAccount_SelectDepositFundsTab" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="7066eccd-f007-4bca-89d0-379b15eeb1cd" name="ViewAccount_SelectDepositFundsTab" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="c14243a8-9c70-4cc8-9a72-f9de0fd4c0b0" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="4a4f5376-7106-445c-9aa6-a7758e330eaa" LastKnownName="this : ViewAccount" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="cc80415c-dc83-46c5-ba0a-42b19367b5b3" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="95a3e210-d324-4ff3-8d6b-1b146d534d73" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="b041fd7d-952e-4a89-9d44-c7b480ec8e39" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="95a3e210-d324-4ff3-8d6b-1b146d534d73" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="df10ac3a-8bdf-4e8b-8e22-1fde3a5d21d7" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4a4f5376-7106-445c-9aa6-a7758e330eaa" LastKnownName="this : ViewAccount" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="cd7f4167-372f-47ce-ad34-e13d54e233d7" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="b041fd7d-952e-4a89-9d44-c7b480ec8e39" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4a4f5376-7106-445c-9aa6-a7758e330eaa" LastKnownName="this : ViewAccount" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="cc80415c-dc83-46c5-ba0a-42b19367b5b3" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="6b3c5345-34e7-49fb-854c-b74b62a67d65" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4a4f5376-7106-445c-9aa6-a7758e330eaa" LastKnownName="this : ViewAccount" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="4a4f5376-7106-445c-9aa6-a7758e330eaa" name="this : ViewAccount" isActor="false" lifelineDisplayName="this : ViewAccount" referencedInstance="(Assembly=$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri) Namespace=OOP2CreditUnion Type=ViewAccount ObjectInstance=&quot;Object instance 1&quot;)" referencedType="OOP2CreditUnion‎.ViewAccount">
+            <referencesInternal>
+              <reference Id="9c97ab4d-6ec7-4b3f-ad7e-ad7294cdddd7" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=OOP2CreditUnion)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&amp;quot; Namespace=OOP2CreditUnion Type=ViewAccount)&quot;)" tag="DGQL" />
+              <reference Id="ae79ff55-72ea-4c5b-a883-420452e1b97e" handle="(Assembly=&quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&quot; Namespace=OOP2CreditUnion Type=ViewAccount)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="95a3e210-d324-4ff3-8d6b-1b146d534d73" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="cc80415c-dc83-46c5-ba0a-42b19367b5b3" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="8f1ec5bd-e9af-4feb-95dc-133dcd59fcdd" name="SelectDepositFundsTab" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="8d217db6-ee25-44a6-bc57-bce3af361cb2" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=OOP2CreditUnion)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&amp;quot; Namespace=OOP2CreditUnion Type=ViewAccount)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&amp;quot; Namespace=OOP2CreditUnion Type=ViewAccount Member=SelectDepositFundsTab)&quot;)" tag="DGQL" />
+              <reference Id="ca5a6e44-2ecd-4789-b759-634af6400fff" handle="(Assembly=&quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&quot; Namespace=OOP2CreditUnion Type=ViewAccount Member=SelectDepositFundsTab)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="cd7f4167-372f-47ce-ad34-e13d54e233d7" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="b041fd7d-952e-4a89-9d44-c7b480ec8e39" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="df10ac3a-8bdf-4e8b-8e22-1fde3a5d21d7" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="6b3c5345-34e7-49fb-854c-b74b62a67d65" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

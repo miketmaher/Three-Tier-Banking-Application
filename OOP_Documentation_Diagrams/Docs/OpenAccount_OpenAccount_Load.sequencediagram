@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="5a856c2b-df00-45e5-89b9-ec5d31a38a3e" name="OpenAccount_OpenAccount_Load" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="d83e79dd-762f-43f0-935f-1c1f93345ee9" name="OpenAccount_OpenAccount_Load" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="6717dcba-47b4-404b-b0cd-b003730095da" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="37405020-00be-47c2-bdea-40e6e399cdc1" LastKnownName="this : OpenAccount" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="5aeb3cd1-b5c5-4593-8546-f694b7953fae" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="32edda3c-234f-4547-807d-4b2bed7c1f85" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="ad352a11-24bf-4854-96df-96c61f637b97" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="32edda3c-234f-4547-807d-4b2bed7c1f85" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="7bcd5423-59f2-4fbb-9a66-8c553d415702" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="37405020-00be-47c2-bdea-40e6e399cdc1" LastKnownName="this : OpenAccount" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="b31ed73b-a119-4e08-ab3d-eb532c648828" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="ad352a11-24bf-4854-96df-96c61f637b97" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="37405020-00be-47c2-bdea-40e6e399cdc1" LastKnownName="this : OpenAccount" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="5aeb3cd1-b5c5-4593-8546-f694b7953fae" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="088ab718-e0b1-4fba-88ac-61f9594b5269" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="37405020-00be-47c2-bdea-40e6e399cdc1" LastKnownName="this : OpenAccount" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="37405020-00be-47c2-bdea-40e6e399cdc1" name="this : OpenAccount" isActor="false" lifelineDisplayName="this : OpenAccount" referencedInstance="(Assembly=$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri) Namespace=OOP2CreditUnion Type=OpenAccount ObjectInstance=&quot;Object instance 3&quot;)" referencedType="OOP2CreditUnion‎.OpenAccount">
+            <referencesInternal>
+              <reference Id="f44385ad-6650-4df6-a1e1-4980ec28c992" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=OOP2CreditUnion)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&amp;quot; Namespace=OOP2CreditUnion Type=OpenAccount)&quot;)" tag="DGQL" />
+              <reference Id="5c5dbcd7-795b-46c2-8cf0-0e4cbd9b7eb3" handle="(Assembly=&quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&quot; Namespace=OOP2CreditUnion Type=OpenAccount)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="32edda3c-234f-4547-807d-4b2bed7c1f85" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="5aeb3cd1-b5c5-4593-8546-f694b7953fae" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="cfea11f1-97ac-459a-8c6b-e4f921e5251a" name="OpenAccount_Load" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="8a7852af-df0b-4963-a2b5-bf5fb2d9e59c" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=OOP2CreditUnion)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&amp;quot; Namespace=OOP2CreditUnion Type=OpenAccount)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&amp;quot; Namespace=OOP2CreditUnion Type=OpenAccount Member=(Name=OpenAccount_Load OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=Object),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=EventArgs)]))&quot;)" tag="DGQL" />
+              <reference Id="2dbff289-d32e-4ff1-ae1c-7b6466921374" handle="(Assembly=&quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&quot; Namespace=OOP2CreditUnion Type=OpenAccount Member=(Name=OpenAccount_Load OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=EventArgs)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="b31ed73b-a119-4e08-ab3d-eb532c648828" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="ad352a11-24bf-4854-96df-96c61f637b97" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="7bcd5423-59f2-4fbb-9a66-8c553d415702" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="088ab718-e0b1-4fba-88ac-61f9594b5269" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

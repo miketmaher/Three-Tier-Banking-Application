@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BLL.CustomerBLLManager">
+    <Position X="5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAQAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomerBLLManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.UserBLLManager">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAAAAAAgAAAAQAAAQAAAEAAAAAgAAEAAAAAAAA=</HashCode>
+      <FileName>UserBLLManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.AccountBLLManager">
+    <Position X="2.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAgAGAAACAAAAACKAAABQAAACBAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>AccountBLLManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.TransactionBLLManager">
+    <Position X="9.25" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAACAABAAAAAIAAggAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>TransactionBLLManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="78e8f675-b16d-43b4-8b54-c11c8a292a77" name="EditAccountDetails_ClearValidationErrors" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="16a604dc-8c3c-4472-9a03-88587f8da65d" name="EditAccountDetails_ClearValidationErrors" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="b8c2fbf0-eff0-4496-b38a-4ae3a1a8ebd7" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="26463edf-7013-40f4-9c16-2e25af059416" LastKnownName="this : EditAccountDetails" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="8645a092-57cf-4b58-a6ba-083ed6e8597d" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="8df511c5-c52e-47d7-9a05-0f64235f3207" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="cc6f061a-780c-47dd-aadf-5bf8115b44f1" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="8df511c5-c52e-47d7-9a05-0f64235f3207" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="f6b5abf8-2cea-4b81-ac88-b2fb43d2fef9" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="26463edf-7013-40f4-9c16-2e25af059416" LastKnownName="this : EditAccountDetails" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="3e162c4e-0b91-4eee-93ed-42df2d5799a2" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="cc6f061a-780c-47dd-aadf-5bf8115b44f1" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="26463edf-7013-40f4-9c16-2e25af059416" LastKnownName="this : EditAccountDetails" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="8645a092-57cf-4b58-a6ba-083ed6e8597d" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="f3d1cdbf-9eda-4ccd-b6bb-ee75de2ec322" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="26463edf-7013-40f4-9c16-2e25af059416" LastKnownName="this : EditAccountDetails" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="26463edf-7013-40f4-9c16-2e25af059416" name="this : EditAccountDetails" isActor="false" lifelineDisplayName="this : EditAccountDetails" referencedInstance="(Assembly=$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri) Namespace=OOP2CreditUnion Type=EditAccountDetails ObjectInstance=&quot;Object instance 1&quot;)" referencedType="OOP2CreditUnion‎.EditAccountDetails">
+            <referencesInternal>
+              <reference Id="7fc60ecb-975d-4451-9bec-39685ae8d9c9" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=OOP2CreditUnion)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&amp;quot; Namespace=OOP2CreditUnion Type=EditAccountDetails)&quot;)" tag="DGQL" />
+              <reference Id="f37911ac-2b98-475a-81dd-8656f8eead36" handle="(Assembly=&quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&quot; Namespace=OOP2CreditUnion Type=EditAccountDetails)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="8df511c5-c52e-47d7-9a05-0f64235f3207" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="8645a092-57cf-4b58-a6ba-083ed6e8597d" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="8bf54355-9ee5-46a4-b66a-ddd8597185c6" name="ClearValidationErrors" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="ac025955-8394-4cae-9f8f-57ef512daae8" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=OOP2CreditUnion)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&amp;quot; Namespace=OOP2CreditUnion Type=EditAccountDetails)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&amp;quot; Namespace=OOP2CreditUnion Type=EditAccountDetails Member=ClearValidationErrors)&quot;)" tag="DGQL" />
+              <reference Id="314df3aa-fef4-40e0-874e-0d8b63d13ba1" handle="(Assembly=&quot;$(21fd3669-1888-4e24-8a2a-70aa2d4120e3.OutputPathUri)&quot; Namespace=OOP2CreditUnion Type=EditAccountDetails Member=ClearValidationErrors)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="3e162c4e-0b91-4eee-93ed-42df2d5799a2" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="cc6f061a-780c-47dd-aadf-5bf8115b44f1" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="f6b5abf8-2cea-4b81-ac88-b2fb43d2fef9" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="f3d1cdbf-9eda-4ccd-b6bb-ee75de2ec322" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>
